@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('pdf/view', 'PDFcontroller@generatePDF')->name('pdf.view');
-Route::get('pdf/download', 'PDFcontroller@downloadPDF')->name('pdf.download');
+Route::get('pdf/view', 'PDFController@generatePDF')->name('pdf.view');
+Route::get('pdf/download', 'PDFController@downloadPDF')->name('pdf.download');

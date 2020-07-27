@@ -83,11 +83,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   <b> Bangla PDF</b>
+                   <b> Bangla PDF </b>
                 </div>
 
-                <a class="btn btn-primary p-2 text-white" href="{{route('pdf.view')}}" target="_blank"><i class="fas fa-eye-open mr-2"></i> View PDF</a>
-                <a class="btn btn-primary p-2 text-white" href="{{route('pdf.download')}}"><i class="fa fa-download mr-2"></i> Download PDF</a>
+                <a class="btn btn-primary p-2 text-white btn-sm" href="{{route('pdf.view')}}" target="_blank"><i class="fa fa-print mr-2"></i> View & Print PDF</a>
+                <a class="btn btn-primary p-2 text-white btn-sm" href="{{route('pdf.download')}}"><i class="fa fa-download mr-2"></i> Download PDF</a>
             </div>
         </div>
 
